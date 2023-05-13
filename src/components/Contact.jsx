@@ -30,7 +30,9 @@ export default function Contact() {
   };
   return (
     <div id="contact" className="p-8 font-serif">
-      <h1 className="text-4xl text-center p-8 lg:font-semibold©">Contact</h1>
+      <h1 className="text-4xl font-semibold tracking-widest text-center p-8 lg:text-6xl">
+        Contact
+      </h1>
       <div className="lg:flex items-center justify-around mt-12">
         <form
           className="flex flex-col space-y-2 items-start"

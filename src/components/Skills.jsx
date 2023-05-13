@@ -16,12 +16,12 @@ export default function Skills() {
   return (
     <div
       id="skills"
-      className="h-full flex flex-col justify-evenly items-center bg-red-600 pt-20 pb-20"
+      className="h-full flex flex-col justify-evenly items-center bg-black-600 pt-20 pb-20"
     >
-      <h1 className="text-center text-6xl font-semibold text-white tracking-widest">
+      <h1 className="font-serif text-center text-4xl font-semibold tracking-widest lg:text-6xl">
         Skills
       </h1>
-      <h2 className="text-center text-gray-300 text-2xl p-8">
+      <h2 className="text-center text-2xl text-gray-500 p-8">
         My stack is MERN. Mongo, Express, React & Node. I also use all the
         folowing technologies.
       </h2>

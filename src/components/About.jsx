@@ -5,7 +5,9 @@ export default function About() {
   return (
     <div id="about">
       <div className="flex flex-col text-center space-y-8 p-8 lg:h-screen flex justify-around lg:w-full">
-        <h3 className="text-center text-5xl">About</h3>
+        <h3 className="text-center text-4xl font-semibold tracking-widest font-serif lg:text-6xl">
+          About
+        </h3>
         <h1 className="font-serif text-2xl">
           Developing{" "}
           <span className="italic capitalize text-3xl">top class</span> websites
