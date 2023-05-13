@@ -8,11 +8,14 @@ export default function About() {
         <h3 className="text-center text-4xl font-semibold tracking-widest font-serif lg:text-6xl">
           About
         </h3>
-        <h1 className="font-serif text-2xl">
-          Developing{" "}
-          <span className="italic capitalize text-3xl">top class</span> websites
-          using modern tech!
-        </h1>
+        <blockquote class="text-4xl font-semibold italic text-center text-slate-900">
+          Crafting{" "}
+          <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-500 relative inline-block">
+            <span class="relative text-white">Web Magic</span>
+          </span>{" "}
+          with code and caffeine.
+        </blockquote>
+
         <p className="text-2xl text-gray-500">
           I'm Wajahat, enthusiastic about new technology that we are evolved
           around, made me dig deeper into web development which I felt in love

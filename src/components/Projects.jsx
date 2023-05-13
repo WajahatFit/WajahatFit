@@ -7,7 +7,7 @@ import project3 from "../images/meme.png";
 export default function Projects({ image, imageAlt, title, link }) {
   return (
     <div id="projects" className="font-serif flex flex-col">
-      <h1 className="text-4xl font-semibold tracking-widest pb-8 pt-4 text-center lg:text-6xl">
+      <h1 className="text-4xl font-semibold tracking-widest pb-8 pt-4 text-center lg:text-6xl mb-28">
         Projects
       </h1>
 
