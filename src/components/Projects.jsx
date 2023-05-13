@@ -6,12 +6,12 @@ import project3 from "../images/meme.png";
 
 export default function Projects({ image, imageAlt, title, link }) {
   return (
-    <div id="projects" className="font-serif flex flex-col lg:">
+    <div id="projects" className="font-serif flex flex-col">
       <h1 className="text-4xl font-semibold tracking-widest pb-8 pt-4 text-center lg:text-6xl">
         Projects
       </h1>
 
-      <div className="flex flex-col items-center justify-around space-y-8  h-full w-full pb-8 lg:flex-row justify-center items-center space-y-0">
+      <div className="flex flex-col items-center justify-around h-full w-full pb-8 lg:flex-row justify-center items-center space-y-0.5">
         <div>
           <ProjectCard
             image={project3}
