@@ -5,7 +5,7 @@ export default function ProjectCard(props) {
       <h1 className="text-2xl text-gray-500 bg-transparent pb-2 border-b-4 border-indigo-500 rounded-md">
         {props.title}
       </h1>
-      <a href={props.link}>
+      <a href={props.link} target="_blank" rel="noreferrer">
         <img className="rounded-lg" src={props.image} alt={props.imgAlt} />
       </a>
     </div>
