@@ -21,7 +21,7 @@ export default function About() {
           around, made me dig deeper into web development which I felt in love
           with.
         </p>
-        <button className="m-auto bg-black hover:bg-sky-700 p-4 rounded-xl text-white ">
+        <button className="m-auto bg-black hover:bg-sky-500 p-4 rounded-xl text-white shadow-2xl">
           <a href={resume} download>
             Download Resume
           </a>

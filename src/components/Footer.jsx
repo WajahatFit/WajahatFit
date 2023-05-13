@@ -6,19 +6,19 @@ export default function Footer() {
   return (
     <div className="w-full h-20">
       <div className="">
-        <h2 className="text-xl pl-8">Other links</h2>
+        <h2 className="text-xl pl-8 font-semibold">Other links</h2>
         <div className="flex justify-start p-8 space-x-6">
           <a
             href="https://www.linkedin.com/in/alicodes/"
             target="_blank"
             rel="noreferrer"
           >
-            <div className="">
+            <div className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110">
               <img className="w-20" src={linkedin} alt="linkedin icon"></img>
               <h2 className="text-center p-2">likeddin</h2>
             </div>
           </a>
-          <div>
+          <div className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110">
             <a
               href="https://github.com/WajahatFit"
               target="_blank"

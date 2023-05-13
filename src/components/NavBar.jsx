@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="bg-current font-sans flex items-center justify-between p-4 top-0">
+    <div className="bg-current font-sans flex items-center justify-between p-4 top-0 shadow-2xl">
       <ul className="hidden md:flex md:items-center md:justify-end md:gap-6 md:pt-8 pb-8 pr-8 bg-transparent md:text-3xl text-white">
         <li className="cursor-pointer">
           <a href="#projects">Projects</a>
