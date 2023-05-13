@@ -1,9 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import present from "../images/undraw_pitching_re_fpgk.svg";
-import orangees from "../images/Screenshot 2023-05-11 at 15.27.51.png";
-import memeGenerator from "../images/Screenshot 2023-05-11 at 16.03.29.png";
-import zahra from "../images/Screenshot 2023-05-11 at 16.06.48.png";
+import project1 from "../images/a.png";
+import project2 from "../images/zahra.png";
+import project3 from "../images/meme.png";
 
 export default function Projects({ image, imageAlt, title, link }) {
   return (
@@ -12,18 +11,10 @@ export default function Projects({ image, imageAlt, title, link }) {
         Projects
       </h1>
 
-      <div className="flex flex-col items-center justify-around space-y-8  h-full w-full pb-8 lg:flex-row justify-center items-center">
+      <div className="flex flex-col items-center justify-around space-y-8  h-full w-full pb-8 lg:flex-row justify-center items-center space-y-0">
         <div>
           <ProjectCard
-            image={orangees}
-            imageAlt="orangees"
-            title="Electronics Online Store"
-            link="https://orangee.netlify.app/"
-          />
-        </div>
-        <div>
-          <ProjectCard
-            image={memeGenerator}
+            image={project3}
             imageAlt="memes"
             title="Random Memes Generator"
             link="https://memesss.netlify.app/"
@@ -31,7 +22,15 @@ export default function Projects({ image, imageAlt, title, link }) {
         </div>
         <div>
           <ProjectCard
-            image={zahra}
+            image={project1}
+            imageAlt="orangees"
+            title="Electronics Online Store"
+            link="https://orangee.netlify.app/"
+          />
+        </div>
+        <div>
+          <ProjectCard
+            image={project2}
             imageAlt="zahra"
             title="Zahra Restaurant"
             link="https://zahrasrestaurant.co.uk/"
