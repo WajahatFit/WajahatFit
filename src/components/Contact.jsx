@@ -29,7 +29,7 @@ export default function Contact() {
       );
   };
   return (
-    <div id="contact" className="p-8 font-serif">
+    <div id="contact" className="p-8 font-serif mt-8">
       <h1 className="text-4xl font-semibold tracking-widest text-center p-8 lg:text-6xl">
         Contact
       </h1>
