@@ -4,7 +4,7 @@ import project1 from "../images/a.png";
 import project2 from "../images/zahra.png";
 import project3 from "../images/meme.png";
 
-export default function Projects({ image, imageAlt, title, link }) {
+export default function Projects() {
   return (
     <div id="projects" className="font-serif flex flex-col">
       <h1 className="text-4xl font-semibold tracking-widest pb-8 pt-4 text-center lg:text-6xl mb-28">

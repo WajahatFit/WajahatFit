@@ -3,6 +3,8 @@ import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
 
 export default function Footer() {
+  let date = new Date();
+  const year = date.getFullYear();
   return (
     <div className="w-full h-20">
       <div className="">
@@ -32,7 +34,7 @@ export default function Footer() {
       </div>
       <div className="bg-black h-20 text-white flex justify-center items-center">
         <span className="text-white text-xl pr-2">&copy;</span>
-        <h3>2023 by Wajahat Ali</h3>
+        <h3>{year} by Wajahat Ali</h3>
       </div>
     </div>
   );
