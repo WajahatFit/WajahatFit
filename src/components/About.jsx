@@ -1,6 +1,6 @@
 import React from "react";
 import details from "../images/undraw_profile_details_re_ch9r.svg";
-import resume from "../images/resume.pdf";
+import resume from "../pdf/newResume.pdf";
 export default function About() {
   return (
     <div id="about">

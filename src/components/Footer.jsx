@@ -34,7 +34,7 @@ export default function Footer() {
       </div>
       <div className="bg-black h-20 text-white flex justify-center items-center">
         <span className="text-white text-xl pr-2">&copy;</span>
-        <h3>{year} by Wajahat Ali</h3>
+        <h3>{year} by Syed Wajahat</h3>
       </div>
     </div>
   );
